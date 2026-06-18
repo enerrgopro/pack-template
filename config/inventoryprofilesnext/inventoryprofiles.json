@@ -1,0 +1,20 @@
+{
+    "ModSettings": {
+        "first_run": false
+    },
+    "GuiSettings": {
+        "inventory_overlay_buttons_visible": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "auto_refill_enable_indicator_icons": {
+            "value": false
+        }
+    },
+    "ScrollSettings": {
+        "direction_absolute": false,
+        "disable_for_non_empty_bundles": false,
+        "scroll_auto_pickup_next_for_single": false
+    }
+}

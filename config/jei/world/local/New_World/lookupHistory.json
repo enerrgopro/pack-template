@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"simulated:physics_assembler"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:elytra"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

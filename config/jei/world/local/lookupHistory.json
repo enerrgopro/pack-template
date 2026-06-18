@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:end_portal_frame"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:elytra"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"creeperoverhaul:beach_creeper_spawn_egg"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
