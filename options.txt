@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
 prioritizeChunkUpdates:0
-fullscreen:false
+fullscreen:true
 gamma:0.5
 graphicsMode:1
 guiScale:3
@@ -23,7 +23,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"false"
 renderDistance:8
-simulationDistance:8
+simulationDistance:16
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","moonlight:merged_pack","eatinganimations_compat","file/Beautiful Enchanted Books - MC 1.21.1 - 8.0.0.zip","file/Enchantment Descriptions 1.2.zip","file/CU - 3d Wrench.zip","black_icons","file/Fancy Crops v1.3.zip","file/LowOnFire 1.21.3.zip","file/Visual Titles 1.3.zip","file/[1.6] Enhanced Boss Bars.zip","file/Icon Xaero\u0027s 1.22.zip","file/Icon Fresh 0.4.zip","file/Fresh Textures 1.4.3.zip","file/FreshAnimations_v1.10.4.zip","file/FreshTextures+FA 1.0.6.zip","file/FA+Player-v1.1.zip","file/FA+Emissive-v1.6.zip","file/FA+Spiders-v2.2.zip","file/FA+Classic_Horses-v1.5.zip","file/CrOv + FrAn [V1.2.2].zip","file/Slightly-Improved-Font-1.1.5.zip","file/tfmg_ru.zip","file/MandalasGUI+Dakmode_1.21.8_v2.5.zip","file/Mandala\u0027s GUI - Dark Mode Compat 0.3.1.zip"]
+resourcePacks:["mod/punchy:resourcepacks/punchy","vanilla","fabric","generated/fragmentum_layer","mod_resources","moonlight:merged_pack","eatinganimations_compat","file/Beautiful Enchanted Books - MC 1.21.1 - 8.0.0.zip","file/Enchantment Descriptions 1.2.zip","file/CU - 3d Wrench.zip","black_icons","file/Fancy Crops v1.3.zip","file/LowOnFire 1.21.3.zip","file/Visual Titles 1.3.zip","file/[1.6] Enhanced Boss Bars.zip","file/Icon Xaero\u0027s 1.22.zip","file/Icon Fresh 0.4.zip","file/Fresh Textures 1.4.3.zip","file/FreshAnimations_v1.10.4.zip","file/FreshTextures+FA 1.0.6.zip","file/FA+Player-v1.1.zip","file/FA+Emissive-v1.6.zip","file/FA+Spiders-v2.2.zip","file/FA+Classic_Horses-v1.5.zip","file/CrOv + FrAn [V1.2.2].zip","file/Slightly-Improved-Font-1.1.5.zip","file/tfmg_ru.zip","file/MandalasGUI+Dakmode_1.21.8_v2.5.zip","file/Mandala\u0027s GUI - Dark Mode Compat 0.3.1.zip","file/Better_Enderdragon.zip"]
 incompatibleResourcePacks:["file/Enchantment Descriptions 1.2.zip","file/CU - 3d Wrench.zip","file/FreshTextures+FA 1.0.6.zip","file/CrOv + FrAn [V1.2.2].zip","file/MandalasGUI+Dakmode_1.21.8_v2.5.zip"]
 lastServer:195.170.193.88:25565
 lang:ru_ru
@@ -246,8 +246,8 @@ key_key.constructionstick.undo:key.keyboard.unknown
 key_key.constructionstick.show_previous:key.keyboard.unknown
 key_key.open_muffler_gui:key.keyboard.unknown
 key_cos.key.opencosarmorinventory:key.keyboard.unknown
-key_key.trashslot.toggle:key.keyboard.keypad.5
 key_key.inventoryessentials.single_transfer:key.mouse.left:CONTROL
+key_key.trashslot.toggle:key.keyboard.keypad.5
 key_key.trashslot.toggle_lock:key.keyboard.unknown
 key_key.trashslot.delete:key.keyboard.delete
 key_key.trashslot.delete_all:key.keyboard.delete:SHIFT
