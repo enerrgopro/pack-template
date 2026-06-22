@@ -231,3 +231,8 @@ Open config/CSC/config.toml for more detailed configuration.
 If the administrator already understands this security notice, disable the notice with: /csc notice whitelistid off
 Control mod id whitelist mode: /csc mode whitelistid on|off
 Open config/CSC/config.toml for more detailed configuration.
+2026-06-21 17:35:01 [INFO] CSC is loading...   Success！
+2026-06-21 17:40:01 [INFO] CSC is loading...   Success！
+2026-06-22 02:13:50 [INFO] CSC is loading...   Success！
+2026-06-22 02:30:14 [INFO] CSC is loading...   Success！
+2026-06-22 10:12:02 [INFO] CSC is loading...   Success！
