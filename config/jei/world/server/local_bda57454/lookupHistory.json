@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"artifacts:night_vision_goggles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:item_vault"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
