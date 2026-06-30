@@ -1,0 +1,11 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"tracks:small_track_drive_wheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:andesite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:cobblestone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"minecraft:diorite","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"create:splashing/soul_sand","recipeType":"create:fan_washing","bookmarkType":"RECIPE"},
+  {"recipe":"create:haunting/soul_sand","recipeType":"create:fan_haunting","bookmarkType":"RECIPE"},
+  {"recipe":"create:crushing/gravel","recipeType":"create:crushing","bookmarkType":"RECIPE"},
+  {"recipe":"create:milling/cobblestone","recipeType":"create:crushing","bookmarkType":"RECIPE"}
+]

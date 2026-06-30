@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"quark:vertical_oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:creative_motor"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

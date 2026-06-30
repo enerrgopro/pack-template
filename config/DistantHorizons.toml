@@ -577,7 +577,7 @@ _version = 4
 				# AUTO - changes based on the most likely API for that MC version 
 				# OPEN_GL - Default 
 				# BLAZE_3D - Only supported on MC 1.21.11
-				renderingApi = "AUTO"
+				renderingApi = "OPEN_GL"
 				#
 				# This is the earth size ratio when applying the curvature shader effect. 
 				# Note: Enabling this feature may cause rendering bugs. 
@@ -598,7 +598,7 @@ _version = 4
 				# AUTO - changes based on the most likely API for that MC version 
 				# OPEN_GL - The Default for MC 1.21.11 and older (supports Iris shaders) 
 				# BLAZE_3D - The Default for MC 26.1.2 and newer (supports Vulkan)
-				renderingEngine = "AUTO"
+				renderingEngine = "OPEN_GL"
 
 			[client.advanced.graphics.genericRendering]
 				#

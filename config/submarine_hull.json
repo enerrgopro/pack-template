@@ -13573,10 +13573,6 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.05
   },
-  "createfood:buttered_toast_plate_block": {
-    "maxWaterDepth": 23,
-    "implosionChance": 0.85
-  },
   "createfood:butterscotch_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
@@ -18221,6 +18217,10 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "createfood:toast_butter_plate_block": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
   "createfood:toast_fried_egg_plate_block": {
     "maxWaterDepth": 23,
     "implosionChance": 0.85
@@ -18796,82 +18796,6 @@
   "culturaldelights:wild_eggplants": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
-  },
-  "delightfulcreators:apple_cider_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:baked_cod_stew_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:beef_stew_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:beetroot_soup_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:bone_broth_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:chicken_soup_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:cooked_rice_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:dog_food_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:fish_stew_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:glow_berry_custard_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:hot_cocoa_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:melon_juice_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:mushroom_stew_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:noodle_soup_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:pumpkin_soup_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:rabbit_stew_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:ratatouille_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:tomato_sauce_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
-  },
-  "delightfulcreators:vegetable_soup_block": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.05
   },
   "dndecor:amethyst_crushing_wheel": {
     "maxWaterDepth": 50,
@@ -55492,18 +55416,6 @@
   "valhelsia_structures:yellow_sleeping_bag": {
     "maxWaterDepth": 3,
     "implosionChance": 0.85
-  },
-  "vista:television": {
-    "maxWaterDepth": 15,
-    "implosionChance": 0.85
-  },
-  "vista:viewfinder": {
-    "maxWaterDepth": 27,
-    "implosionChance": 0.835
-  },
-  "vista:wave_gate": {
-    "maxWaterDepth": 61,
-    "implosionChance": 0.6333333
   },
   "visualworkbench:minecraft/crafting_table": {
     "maxWaterDepth": 25,

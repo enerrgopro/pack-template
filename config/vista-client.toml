@@ -34,7 +34,7 @@
 		#Distance from a TV after which the feed will update in real time
 		# Default: 24.0
 		# Range: 1.0 ~ 512.0
-		update_distance = 20.0
+		update_distance = 24.0
 		#Scale factor for live feed resolution. A tv screen is 12x12 pixels, this number multiplies that area
 		# Default: 8
 		# Range: 1 ~ 32
@@ -45,7 +45,7 @@
 		#Allowed Values: OFF, LOW, MED, HIGH
 		distant_horizons_LOD = "OFF"
 		#Attempts to disable iris shaders in the live feed view
-		iris_off_hack = true
+		iris_off_hack = false
 
 	[television.wave_gate]
 		#Enable FFmpeg use. This is needed if you want to use the Wave Gate

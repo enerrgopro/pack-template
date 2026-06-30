@@ -21,6 +21,13 @@
 		allow_single_item = false
 		enable_particles = true
 
+	[interactions.campfire_cooking]
+		enable_campfire_cooking = false
+		require_shift = true
+		sticks_only = false
+		campfire_cooking_exclude = []
+		campfire_cooking_filter = []
+
 	[storage.cloth_sack]
 		cloth_sack_inventory = true
 		cloth_sack_eat_from_item = false

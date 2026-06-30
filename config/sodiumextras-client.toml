@@ -2,7 +2,7 @@
 		#Set Fullscreen mode
 		#Borderless let you change between screens more faster and move your mouse across monitors
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
-		fullscreen = "BORDERLESS"
+		fullscreen = "FULLSCREEN"
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED
@@ -109,7 +109,7 @@
 			[embeddiumextras.performance.distanceCulling.entities]
 				#Toggles distance culling for entities
 				#Maybe you use another mod for that :(
-				enable = true
+				enable = false
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
 				# Default: 4096
