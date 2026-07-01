@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "BumBood_FT",
+      "uniqueId": "db4b3a49-d325-45c2-9655-ffb393d8c443"
+    },
+    "time": 1782922284449,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ynMORad2m9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BumBood_FT",
+      "uniqueId": "db4b3a49-d325-45c2-9655-ffb393d8c443"
+    },
+    "time": 1782922199616,
+    "type": "Health report",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/acFupHcrdB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BumBood_FT",
+      "uniqueId": "db4b3a49-d325-45c2-9655-ffb393d8c443"
+    },
+    "time": 1782922140846,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/JouYGFlpQU"
+    }
+  }
+]
