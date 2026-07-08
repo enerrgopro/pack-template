@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"createbigcannons:cannon_mount"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"quark:vertical_oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:creative_motor"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

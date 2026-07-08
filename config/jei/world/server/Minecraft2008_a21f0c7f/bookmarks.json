@@ -9,6 +9,7 @@
   {"ingredient":{"id":"create:andesite_funnel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"dndesires:omni_speed_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:packager"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"fluid:can_filler"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:cardboard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:pulp"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -30,5 +31,12 @@
   {"ingredient":{"id":"create:large_cogwheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"aeronautics:propeller_bearing"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:white_sail"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"create:mechanical_pump"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"create:mechanical_pump"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:encased_chain_drive"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createbigcannons:cast_iron_autocannon_breech"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:item_drain"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createbigcannons:empty_autocannon_cartridge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createbigcannons:autocannon_cartridge_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:factory_gauge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:crafting/logistics/stock_link","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
 ]
