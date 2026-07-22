@@ -62,9 +62,6 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "apothic_spawners": {
-    "spawner": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -83,14 +80,8 @@
     "block_properties": false,
     "mod_name": true
   },
-  "apotheosis": {
-    "adventure": true
-  },
   "balm": {
     "jade": true
-  },
-  "apothic_enchanting": {
-    "ench": true
   },
   "ars_nouveau": {
     "mob_jar": true
@@ -105,11 +96,8 @@
   "jadeaddons.lootr": {
     "info": true
   },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "jurassicsaga": {
-    "animal": true
+  "quark": {
+    "oretoise_eating_cooldown": true
   },
   "corpse": {
     "corpse": true

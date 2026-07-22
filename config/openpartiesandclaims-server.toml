@@ -84,9 +84,14 @@
 		# Default: 10
 		# Range: > 0
 		maxPlayerClaimForceloads = 10
-		#The permission that should override the default "maxPlayerClaims" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
+		#The permission that should override the default "maxPlayerClaims" value. Set it to an empty string to never check permissions.
+		#The value of this permission is ignored for primary party owners when partyOwnedClaims are enabled because checking permissions requires
+		#the player to be online, which doesn't work well with party-owned claims.
+		#The used permission system can be configured with "permissionSystem".
 		maxPlayerClaimsPermission = "xaero.pac_max_claims"
 		#The permission that should override the default "maxPlayerClaimForceloads" value. Set it to an empty string to never check permissions.
+		#The value of this permission is ignored for primary party owners when partyOwnedClaims are enabled because checking permissions requires
+		#the player to be online, which doesn't work well with party-owned claims.
 		#The permission override only takes effect after the player logs in at least once after a server (re)launch, so it is recommended to keep all permission-based forceload limits equal to or greater than "maxPlayerClaimForceloads".
 		#The used permission system can be configured with "permissionSystem".
 		maxPlayerClaimForceloadsPermission = "xaero.pac_max_forceloads"
@@ -120,9 +125,11 @@
 		#Whether parties from the primary party system (option "primaryPartySystem") should act as owners of claims.
 		#The technical owner of a party's claims is still a player: the party owner.
 		#Party members who are at least the rank equivalent of Claimer can claim and unclaim as the party (owner).
+		#If "Whole Party Can Claim" is enabled in the party owner's config (or enforced by the default player config), then every player in the party can claim/unclaim.
 		#Party members who are at least the rank equivalent of Moderator can also include and exclude players
 		#to/from the player groups of the party's claim config.
 		#Party members who are at least the rank equivalent of Admin can also fully edit the party's claim config.
+		#If the primary party system supports party colors (e.g. FTB Teams), then the default color of the party's claims is the party color.
 		#Changing this option does not automatically reassign claims based on party relations or actual chunk claimers,
 		#so it is recommended to only set this option once based on the server's intended gameplay style.
 		#Other important options related to this feature are "claimBonusPerPartyMember", "forceloadBonusPerPartyMember",
@@ -148,6 +155,11 @@
 		# Default: 0
 		# Range: > 0
 		forceloadBonusForPartyOwner = 0
+		#How often (in minutes) to allow players to access a claim when their own claim count is over the claim limit or the claim count
+		#of the owner of the claim is over the claim limit.
+		# Default: 5
+		# Range: > 0
+		overLimitClaimAccessCooldown = 5
 
 		[serverConfig.claims.protection]
 			#The type of the list defined in "friendlyChunkProtectedEntityList". ONLY - include only the listed entities. ALL_BUT - include all but the listed entities.

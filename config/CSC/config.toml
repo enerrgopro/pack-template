@@ -1,7 +1,7 @@
 
 # #----------------------------------------------------------------------
 # CSC config version. If this value is different from the current CSC version, the old config will be archived and a fresh config will be generated.
-ConfigVersion = "1.21.26"
+ConfigVersion = "1.21.27"
 
 # #----------------------------------------------------------------------
 #     Welcome to CSC! CSC (formerly Create:SchematicChecker | Create: Schematic Validator)

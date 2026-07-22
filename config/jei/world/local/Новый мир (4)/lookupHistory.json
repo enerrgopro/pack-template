@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"farmersdelight:cooked_mutton_chops"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:ham"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"farmersdelight:apple_cider"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
