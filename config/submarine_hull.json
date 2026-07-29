@@ -5097,18 +5097,6 @@
     "maxWaterDepth": 36,
     "implosionChance": 0.78
   },
-  "cbcoptics:autocannon_sight": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.19333333
-  },
-  "cbcoptics:cannon_sight": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.19333333
-  },
-  "cbcoptics:optics_control_unit": {
-    "maxWaterDepth": 100,
-    "implosionChance": 0.19333333
-  },
   "chunkloaders:advanced_chunk_loader": {
     "maxWaterDepth": 90,
     "implosionChance": 0.46
@@ -21489,6 +21477,10 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.05
   },
+  "createpropulsion:advanced_tilt_adapter": {
+    "maxWaterDepth": 70,
+    "implosionChance": 0.58
+  },
   "createpropulsion:cable": {
     "maxWaterDepth": 55,
     "implosionChance": 0.67
@@ -21561,6 +21553,10 @@
     "maxWaterDepth": 39,
     "implosionChance": 0.76666665
   },
+  "createpropulsion:platinum_fluid_vessel": {
+    "maxWaterDepth": 39,
+    "implosionChance": 0.76666665
+  },
   "createpropulsion:platinum_ore": {
     "maxWaterDepth": 55,
     "implosionChance": 0.67
@@ -21580,6 +21576,10 @@
   "createpropulsion:solid_burner": {
     "maxWaterDepth": 39,
     "implosionChance": 0.76666665
+  },
+  "createpropulsion:solid_fuel_thruster": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.1
   },
   "createpropulsion:stirling_engine": {
     "maxWaterDepth": 39,
@@ -51161,8 +51161,480 @@
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
+  "reinforced_construction:black_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:black_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:blue_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:blue_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:brown_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:brown_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:chiseled_obsidian": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:chiseled_reinforced_copper": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:chiseled_reinforced_diamond": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:chiseled_reinforced_gold": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:chiseled_reinforced_iron": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:chiseled_reinforced_netherite": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:crystallized_obsidian": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:crystallized_obsidian_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:crystallized_obsidian_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_copper": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_copper_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_copper_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_diamond": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_diamond_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_diamond_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_gold": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_gold_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_gold_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_iron": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_iron_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_iron_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_netherite": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_netherite_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cut_reinforced_netherite_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cyan_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:cyan_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:gray_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:gray_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:green_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:green_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:light_blue_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:light_blue_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:light_gray_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:light_gray_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:lime_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:lime_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:magenta_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:magenta_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_bricks": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_bricks_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_bricks_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_bricks_wall": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_pillar": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_tiles": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_tiles_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_tiles_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:obsidian_tiles_wall": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:orange_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:orange_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:pink_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:pink_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:polished_obsidian": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:polished_obsidian_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:polished_obsidian_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:polished_obsidian_wall": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:purple_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:purple_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:red_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:red_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_copper_block": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_copper_lamp": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_copper_pillar": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_copper_plate": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_copper_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_copper_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_diamond_block": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_diamond_lamp": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_diamond_pillar": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_diamond_plate": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_diamond_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_diamond_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_gold_block": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_gold_lamp": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_gold_pillar": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_gold_plate": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_gold_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_gold_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_iron_block": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_iron_lamp": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_iron_pillar": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_iron_plate": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_iron_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_iron_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_netherite_block": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_netherite_lamp": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_netherite_pillar": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_netherite_plate": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_netherite_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:reinforced_netherite_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:smooth_obsidian": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:smooth_obsidian_slab": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:smooth_obsidian_stairs": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:tinted_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:white_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:white_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:yellow_stained_hardened_glass": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "reinforced_construction:yellow_stained_hardened_glass_pane": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "rusticdelight:bell_pepper_black_block": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_black_crate": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_blue_block": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_blue_crate": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_green_block": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
   "rusticdelight:bell_pepper_green_crate": {
     "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_medley": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_orange_block": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_orange_crate": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_pink_block": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_pink_crate": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_purple_block": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_purple_crate": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_red_block": {
+    "maxWaterDepth": 10,
     "implosionChance": 0.85
   },
   "rusticdelight:bell_pepper_red_crate": {
@@ -51173,12 +51645,28 @@
     "maxWaterDepth": 13,
     "implosionChance": 0.85
   },
+  "rusticdelight:bell_pepper_white_block": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_white_crate": {
+    "maxWaterDepth": 23,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:bell_pepper_yellow_block": {
+    "maxWaterDepth": 10,
+    "implosionChance": 0.85
+  },
   "rusticdelight:bell_pepper_yellow_crate": {
     "maxWaterDepth": 23,
     "implosionChance": 0.85
   },
   "rusticdelight:bell_peppers": {
     "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:calamari_crate": {
+    "maxWaterDepth": 23,
     "implosionChance": 0.85
   },
   "rusticdelight:cherry_blossom_cheesecake": {
@@ -51201,6 +51689,14 @@
     "maxWaterDepth": 13,
     "implosionChance": 0.85
   },
+  "rusticdelight:coffee_cheesecake": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:coffee_pancakes": {
+    "maxWaterDepth": 5,
+    "implosionChance": 0.85
+  },
   "rusticdelight:cotton": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -51213,8 +51709,32 @@
     "maxWaterDepth": 13,
     "implosionChance": 0.85
   },
+  "rusticdelight:dark_bell_pepper_medley": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:dark_bell_pepper_seeds_bag": {
+    "maxWaterDepth": 13,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:dark_bell_peppers": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
   "rusticdelight:honey_pancakes": {
     "maxWaterDepth": 5,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:pale_bell_pepper_medley": {
+    "maxWaterDepth": 8,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:pale_bell_pepper_seeds_bag": {
+    "maxWaterDepth": 13,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:pale_bell_peppers": {
+    "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
   "rusticdelight:pancakes": {
@@ -51230,6 +51750,14 @@
     "implosionChance": 0.85
   },
   "rusticdelight:potted_wild_cotton": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:potted_wild_dark_bell_peppers": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:potted_wild_pale_bell_peppers": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
@@ -51262,6 +51790,14 @@
     "implosionChance": 0.85
   },
   "rusticdelight:wild_cotton": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:wild_dark_bell_peppers": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "rusticdelight:wild_pale_bell_peppers": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
   },

@@ -1,24 +1,58 @@
 debug = false
 disable_crowdin = false
 check_for_updates = true
-key_bindings = []
+
+[activations.4aec07ba-d109-3345-9a0a-92022a116cd0]
+type = "VOICE"
+toggle = false
+
+[[key_bindings]]
+name = "key.plasmovoice.general.mute_microphone"
+any_context = false
+category = "key.plasmovoice.general"
+
+[[key_bindings.keys]]
+code = 333
+type = "KEYSYM"
+
+[servers.3b3614b6-5312-4669-8e4e-4383df4c4015.distances]
+4aec07ba-d109-3345-9a0a-92022a116cd0 = 32
 
 [voice]
 disabled = false
-microphone_disabled = false
-activation_threshold = -30.0
+microphone_disabled = true
+activation_threshold = -60.0
 input_device = ""
 output_device = ""
 disable_input_device = false
 use_javax_input = false
-microphone_volume = 1.0
-noise_suppression = false
-volume = 1.0
+microphone_volume = 2.0
+noise_suppression = true
+volume = 2.0
 compressor_limiter = true
 sound_occlusion = false
 directional_sources = false
 hrtf = false
 stereo_capture = false
+
+[voice.volumes.proximity]
+volume = 2.0
+[voice.volumes.source_0d4390ef-c5f7-3d95-8e9e-2b97046c4f03]
+volume = 2.0
+[voice.volumes.source_4d43e07b-0411-3413-ad4a-4d9ee30142b6]
+volume = 2.0
+[voice.volumes.source_7cd65fec-e095-3e1c-9831-0a60355c6e6a]
+volume = 2.0
+[voice.volumes.source_9fa8556e-2213-3b8f-8f34-254ad85871a6]
+volume = 2.0
+[voice.volumes.source_a86f0f24-0c23-3f4a-acec-20f29b9d27ad]
+volume = 2.0
+[voice.volumes.source_bce99148-0cc5-33f6-a690-a64bc8d0f052]
+volume = 2.0
+[voice.volumes.source_d2bee1ff-269f-3d73-90d3-b3652701be98]
+volume = 2.0
+[voice.volumes.source_e6d89986-e9d5-3cf0-bcea-cc1bff634f47]
+volume = 2.0
 
 [advanced]
 visualize_voice_distance = true
@@ -44,3 +78,6 @@ show_static_source_icons = true
 overlay_enabled = true
 overlay_position = "TOP_LEFT"
 overlay_style = "NAME_SKIN"
+
+[overlay.source_states]
+proximity = "OFF"
